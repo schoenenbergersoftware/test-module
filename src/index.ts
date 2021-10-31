@@ -1,12 +1,10 @@
+const axios = require("axios");
 const configuration: object = {
-    "type": "meat-and-filler", "start-with-lorem": 1
+    type:<string> "meat-and-filler", "start-with-lorem":<number> 1
 }
 
 export async function loremIpsum(config: object = configuration) {
-    let response = await fetch("https://baconipsum.com/api/", {
-        "body": JSON.stringify(config)
-    })
-
-    let data = await response.json()
-    return data;
+    let response: any = await axios.get("https://baconipsum.com/api/");
+    
+    return response;
 }
