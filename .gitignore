@@ -1,0 +1,8 @@
+[Node Modules Folder]
+/node_modules/
+
+[NPM RC Cofig]
+.npmrc
+
+[Visual Studio Code Configuration]
+.vscode
