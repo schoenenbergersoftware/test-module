@@ -1,8 +1,2 @@
-/**
- *
- * @param a number
- * @param b number
- * @returns Number
- */
-export declare function add(a: number, b: number): number;
+export declare function loremIpsum(config?: object): Promise<any>;
 //# sourceMappingURL=index.d.ts.map
