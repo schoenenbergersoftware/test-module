@@ -7,12 +7,7 @@
   "author": "Patric Schönenberger",
   "license": "ISC",
   "scripts": {
-    "build": "tsc -p .",
-    "git-add": "git add . && git commit -m 'Automated Commit'",
-    "push": "git push",
-    "version-patch": "npm version patch -m 'Fixed some minor issues'",
-    "version-minor": "git-add && npm version minor -m 'Fixed runtime and performance issues'",
-    "version-major": "git-add && npm version minor -m 'Major update - Check changelog for Breaking changes'"
+    "build": "tsc -p ."
   },
   "devDependencies": {
     "typescript": "^4.4.4"
